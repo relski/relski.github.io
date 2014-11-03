@@ -85,7 +85,7 @@ html, body {
 	background-image: url('../images/camera2.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 1000px;
+	height: 100vh;
 }
 
 .cover {
@@ -111,7 +111,7 @@ html, body {
 	font-family: 'Didact Gothic', sans-serif;
 	color: white;
 	position: relative;
-	top: 30%;
+	top: 50px;
 	margin-right: 20px;
 }
 
