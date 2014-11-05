@@ -7,21 +7,23 @@
 <link media="screen" type="text/css" rel="stylesheet" href="css/index2-copy.css" />
 <link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/override.css">
+<script type="text/javascript" src="js/skrollr.js"></script>
 </head>
 
 <body>
 <div id="skrollr-body">
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container-fluid header">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
             <div class="navbar-header">
-                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false">
                      <span class="sr-only">Toggle Navigation</span>
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse">
+            <div id="navbar" class="collapse navbar-collapse" aria-expanded="false">
                 <ul class="nav navbar-nav">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -30,7 +32,7 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </nav>
     
     <section class="frame1" id="home">
         <div class="content-frame">
@@ -43,7 +45,6 @@
             <p>His modo aliquando temporibus ne. Elit doming vix et, meis tractatos eos eu. Percipit reformidans no vim, te vel summo saepe. Usu eu fabulas platonem. In est meis elitr theophrastus, et nec summo putent pericula.</p>
         </div>
     </section>
-</div>
 
     <section class="frame3" id="portfolio">
         <div class="content-frame">
@@ -51,17 +52,23 @@
     </section>
     
     <section class="frame4" id="contact">
-        <div class="content-frame"></div>
+        <div class="content-frame">
+            <p>Mind doing some projects with me?</p>
+			<div class="icons">
+				<a href="https://www.facebook.com/jorelski"><img src="images/fbicon.png"></a>
+				<a href="https://www.youtube.com/user/jorel0221"><img src="images/youtubeicon.png"></a>
+				<a href="https://relskidoingsomething.blogspot.com"><img src="images/blogspoticon.png"></a>
+				<a href="https://github.com/relski"><img src="images/githubicon.png"></a>
+			</div>
+        </div>
     </section>
-    
+ </div>   
 <!-- SCRIPTS -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
     var s = skrollr.init();
     </script>
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script src="js/skrollr.js"></script>
 </body>
 
 </html>

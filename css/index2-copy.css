@@ -45,6 +45,10 @@ section {
     height: 100vh;
     text-align: center;
 }
+section p {
+    position: relative;
+    top: 50vh;
+}
 .content-frame {
     padding-top: 50px;
     padding-left: 10px;
@@ -70,4 +74,14 @@ section {
 }
 #about p {
     color: #FFF;
+}
+#contact {
+    background-color: #000;
+}
+#contact p {
+    color: #FFF;
+}
+.icons {
+    position: relative;
+    top: 60vh;
 }
