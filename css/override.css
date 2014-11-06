@@ -1,5 +1,11 @@
 /* OVERRIDE */
 .navbar-default {
-    background-color: #FFF;
+    background-color: rgba(198, 198, 198, 0.5);
     border-bottom: 0px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+.row {
+    margin: 10px 0;
 }
