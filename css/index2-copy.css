@@ -60,6 +60,7 @@ body {
     max-width: 600px;
     padding: 20px;
     margin: 0 auto;
+    border: 3px solid #FFF;
 }
 .content-frame {
     padding-top: 50px;
@@ -116,17 +117,36 @@ body {
     z-index: 0;
     position: relative;
 }
+#about {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/entity.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: table;
+    z-index: 0;
+    position: relative;
+}
+#info {
+    color: #000;
+    font-weight: bolder;
+}
 #portfolio {
     height: auto;
+    padding-bottom: 50px;
 }
 .sample {
     overflow: hidden;
-    background: #FFF;
+    border: 10px solid #FFF;
 }
 .sample img {
     width: 100%;
     height: auto;
-    max-height: 200px;
+    max-height: 240px;
+}
+.sample iframe {
+    width: 100%;
+    height: 100%;
 }
 @media (min-width: 768px) {
     .sample {
@@ -140,13 +160,16 @@ body {
 @media (min-width: 992px) {
     .sample {
         width: 430px;
-        height: 200px;
+        height: 240px;
     }
 }
 .icons {
     margin: 0 auto;
     display: table;
 }
+.icons a {
+    margin: 10px;
+}
 #contact {
-    margin: 70px 0;
+    padding-bottom: 100px;
 }
