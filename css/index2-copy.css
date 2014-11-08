@@ -47,10 +47,15 @@ body {
     text-decoration:  none;
 }
 */
+.frame1, .frame2, .frame3 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 .main-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -130,6 +135,9 @@ body {
 #info {
     color: #000;
     font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    border-radius: 5px;
 }
 #portfolio {
     height: auto;

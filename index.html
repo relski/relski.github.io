@@ -1,75 +1,134 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, target-densitydpi=device-dpi" />
 <title>Jorel Carino</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 <link media="screen" type="text/css" rel="stylesheet" href="css/index2.css" />
 <link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/override.css">
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/smoothscroll.js"></script>
 <script src="js/skrollr.js"></script>
 </head>
 
 <body>
-    <div id="skrollr-body">
+<div id="skrollr-body">
 	<div class="wrapper">
-		<div class="header">
-			<div class="nav">
-				<ul>
-					<li><a href="#slide1" class="smoothScroll">Home</a></li>
-					<li><a href="#slide2" class="smoothScroll">About</a></li>
-					<li><a href="#slide3" class="smoothScroll">Portfolio</a></li>
-					<li><a href="#slide4" class="smoothScroll">Contact</a></li>
-				</ul>
-			</div>
-		</div>
+        <!-- NAVIGATION -->
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid header">
+            <div class="navbar-header">
+                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false">
+                     <span class="sr-only">Toggle Navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">
+                    <!-- <img src="images/cat.jpg"> -->
+                    Relski
+                </a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse navbar-right" aria-expanded="false">
+                <ul class="nav navbar-nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <!-- SECTION 1 -->
 		<div class="section" id="slide1">
-			<div class="text1" data-center-bottom="margin-left: 150px;" data-top-bottom="margin-left: -500px">
-				<p>Jorel Carino</p><br />
-				<p>front-end developer<br />web designer<br />animator</p>
-                <a href="prototype.html">Click Me!</a>
-			</div>
+            <div class="main-container">
+                <div class="welcome">
+                    <h1>JOREL CARINO</h1>
+                    <p>front-end developer</p>
+                </div>
+            </div>
 		</div>
+        <!-- SECTION 2 -->
 		<div class="section" id="slide2">
+            <div class="main-container">
+                <div class="content-frame">
+                    <div class="column"></div>
+                    <div class="column" id="info">
+                        <h4>I am Jorel Carino from the Philippines. I studied animation and delve into all sorts of multimedia. Things I like to do the most are fantasy, futuristic concept arts, independent animations and simplistic designs. You can see new stuff from me on my blog.</h4>
+                    </div>
+                </div>
+            </div>
+            <!--
 			<div class="text2" data-bottom-top="opacity: 0" data-300-top="opacity: 1">
 				<p>I am Jorel Carino. Freelance Artist<br />from the Philippines. I studied<br />animation and delve into all sorts of multimedia.<br /><br/>Things I like to do the most<br />are fantasy, futuristic concept arts,<br />independent animations and simplistic designs.<br /><br />You can see new stuff from me on my blog.</p>
 			</div>
+-->
 			<div class="cover" data-bottom-top="opacity: 1" data--200-top="opacity: 0;"></div>
 		</div>
+        <!-- SECTION 3 -->
 		<div class="section" id="slide3">
-			<div class="port">
-				<p>Portfolio</p><br />
-				<p data-bottom-top="opacity: 0;" data-400-top="opacity: 0;" data-200-top="opacity: 1;">some stuff i made</p>
-			</div>
-			<div class="portcon">
-				<div id="slide">
-					<h4>Reel</h4>
-				</div>
-				<div id="slide">
-					<h4>Character Designs</h4>
-				</div>
-				<div id="slide">
-					<h4>Concept Arts</h4>
-				</div>
-				<div id="slide">
-					<h4>Web Designs</h4>
-				</div>
-			</div>
-		</div>
+			<div class="content-frame">
+            <h3 class="centering">Portfolio</h3>
+            <p class="centering" data-bottom-top="opacity: 0;" data-400-top="opacity: 0;" data-200-top="opacity: 1;">some stuff i made</p>
+            <div class="row">
+                <div class="column">
+                    <div class="sample">
+                        <img src="images/offisynergy.jpg">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="sample">
+                        <img src="images/finn_pixel_art_2.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="sample">
+                        <iframe src="//www.youtube.com/embed/D9HABlZDAtQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="sample">
+                        <iframe src="//www.youtube.com/embed/yEisWMBsVKQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div class="column">
+                <img src="images/offisynergy.jpg"> 
+            </div>
+            <div class="column">
+                <img src="images/finn_pixel_art.jpg">
+            </div>
+            -->
+            </div>
+        </div>
+        
+        <div class="content-frame">
+            <hr>
+        </div>
+		<!-- SECTION 4 -->
 		<div class="section" id="slide4">
-			<p>Mind doing some projects with me?</p>
-			<div class="icons">
-				<a href="https://www.facebook.com/jorelski"><img src="images/fbicon.png"></a>
-				<a href="https://www.youtube.com/user/jorel0221"><img src="images/youtubeicon.png"></a>
-				<a href="https://relskidoingsomething.blogspot.com"><img src="images/blogspoticon.png"></a>
-				<a href="https://github.com/relski"><img src="images/githubicon.png"></a>
-			</div>
+			<div class="content-frame">
+                <div class="padding"></div>
+                <h2 class="centering">Mind doing some projects with me?</h2>
+                <div class="icons">
+                    <a href="https://www.facebook.com/jorelski"><img src="images/fbicon.png"></a>
+                    <a href="https://www.youtube.com/user/jorel0221"><img src="images/youtubeicon.png"></a>
+                    <a href="https://relskidoingsomething.blogspot.com"><img src="images/blogspoticon.png"></a>
+                    <a href="https://github.com/relski"><img src="images/githubicon.png"></a>
+                </div>
+            </div>
 		</div>	
 	</div>
-    </div>
-	
+</div>
+	<!-- SCRIPTS -->
 	<script type="text/javascript">
     var s = skrollr.init();
     </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
